@@ -1,0 +1,44 @@
+//html code*****
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Information</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Information</h1>
+        <p>Name: John Doe</p>
+        <p>Email: johndoe@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </div>
+</body>
+</html>
+
+
+//css code*******
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333333;
+}
+
+p {
+    color: #666666;
+    margin-bottom: 10px;
+}
+
